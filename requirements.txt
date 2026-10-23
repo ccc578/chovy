@@ -1,0 +1,10 @@
+# Chovy 运行依赖
+#
+# 注意：PySide6 官方包体积较大且在本机（Windows Store 版 Python 的长路径）下
+# 直接 pip install 会因路径过长失败，因此已安装到项目内 vendor/ 目录。
+# 若需在其它机器安装，请使用：
+#   pip install --target vendor PySide6-Essentials
+#
+Pillow>=10.0
+numpy>=1.24
+PySide6-Essentials>=6.6
